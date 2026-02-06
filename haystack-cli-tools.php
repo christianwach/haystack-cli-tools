@@ -39,7 +39,7 @@ if ( ! defined( 'HAYSTACK_CLI_TOOLS_PATH' ) ) {
 }
 
 /**
- * Command Line Tools for SOF Class.
+ * Haystack Command Line Tools Class.
  *
  * A class that encapsulates plugin functionality.
  *

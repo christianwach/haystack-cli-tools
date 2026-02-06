@@ -1,6 +1,6 @@
 <?php
 /**
- * WP-CLI tools for the Spirit of Football website.
+ * Haystack WP-CLI tools bootstrap.
  *
  * @package Haystack_Command_Line_Tools
  */
