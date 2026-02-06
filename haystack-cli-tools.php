@@ -4,7 +4,7 @@
  *
  * Plugin Name:       Haystack Command Line Tools
  * Description:       Miscellaneous useful command line utilities.
- * Version:           1.0.0
+ * Version:           1.0.1a
  * Plugin URI:        https://github.com/christianwach/haystack-cli-tools
  * GitHub Plugin URI: https://github.com/christianwach/haystack-cli-tools
  * Author:            Christian Wach
@@ -21,7 +21,7 @@
 defined( 'ABSPATH' ) || exit;
 
 // Set our version here.
-define( 'HAYSTACK_CLI_TOOLS_VERSION', '1.0.0' );
+define( 'HAYSTACK_CLI_TOOLS_VERSION', '1.0.1a' );
 
 // Store reference to this file.
 if ( ! defined( 'HAYSTACK_CLI_TOOLS_FILE' ) ) {
