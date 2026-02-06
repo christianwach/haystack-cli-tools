@@ -6,6 +6,11 @@ Miscellaneous useful command line utilities.
 
 *Haystack Command Line Tools* is a WordPress plugin that provides a set of WP-CLI commands that I can't seem to find elsewhere.
 
+### Commands
+
+* `bbpress role-delete` removes the roles that BBPress added.
+* `spam delete` deletes spam Comments and Jetpack Form Submissions.
+
 Use `wp help haystack <command>` to find out more.
 
 ## Installation
