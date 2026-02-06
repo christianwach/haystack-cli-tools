@@ -191,7 +191,7 @@ abstract class CLI_Tools_Haystack_Command_Base extends \WP_CLI\CommandWithDBObje
 
 		// Let's use a custom WP_Upgrader object.
 		require_once __DIR__ . '/utilities/class-zip-extractor.php';
-		$extractor = \WP_CLI\Utils\get_upgrader( 'CLI_Tools_CiviCRM_Zip_Extractor' );
+		$extractor = \WP_CLI\Utils\get_upgrader( 'Haystack_CLI_Tools_Zip_Extractor' );
 
 		// Go ahead and extract the archive.
 		$extractor->init();
@@ -222,7 +222,7 @@ abstract class CLI_Tools_Haystack_Command_Base extends \WP_CLI\CommandWithDBObje
 
 		// Let's use a custom WP_Upgrader object.
 		require_once __DIR__ . '/utilities/class-backup-restorer.php';
-		$overwriter = \WP_CLI\Utils\get_upgrader( 'CLI_Tools_CiviCRM_WP_Upgrader' );
+		$overwriter = \WP_CLI\Utils\get_upgrader( 'Haystack_CLI_Tools_WP_Upgrader' );
 
 		// Go ahead and restore from backup.
 		$overwriter->init();

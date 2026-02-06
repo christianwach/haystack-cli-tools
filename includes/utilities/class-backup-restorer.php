@@ -15,7 +15,7 @@ if ( ! class_exists( 'WP_Upgrader' ) ) {
  *
  * @since 1.0.0
  */
-class CLI_Tools_CiviCRM_WP_Upgrader extends WP_Upgrader {
+class Haystack_CLI_Tools_WP_Upgrader extends WP_Upgrader {
 
 	/**
 	 * Whether a bulk upgrade/installation is being performed.
